@@ -1,19 +1,24 @@
 # CS305
-*What was the problem you were solving in the projects for this course?
+*Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 
-The problem that was to be solved was getting the propper security functionallity into a financial institutions application. 
+Artemis Financial is a company wanting to create a new online presence. Because money is on the line there is greater incentive to try and attack Artemis and for Artemis to be extra cautious.
 
-*How did you approach the problem? Consider why data structures are important to understand.
-I approached the problem by looking at it wholeisaclly. I went over the issues at hand and decided the best course of action in order to produce the best product possible
+*What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
-*How did you overcome any roadblocks you encountered while going through the activities or project?
+Security at some level is required by law – especially where sensitive data is stored, e.g., personal identifiers or financial data. Security starts with the first line of code and the architectural decisions. Then from that point forward it is everyone’s responsibility to maintain best practices. Data breeches make first page headlines these days and can be very costly to users or owners of an application. Security never stops, either. All code has a bug and will be outdated at some point in the future, so maintainability must also be baked into the architecture.
 
-Any roadblocks I encountered, first I would take a step back, breath ,then reasses. If I was still at a standstill I would first email my professor for any insight. Then I would do some research online to see if I could get to the bottom of the issue. 
+*What about the process of working through the vulnerability assessment did you find challenging or helpful?
 
-*How has your work on this project expanded your approach to designing software and developing programs?
+While I have read the results of static tests many times, I had never performed a test myself, so that was helpful. I think adding in the ability to do dynamic testing would also be useful.
 
-The work on these projectsa has expanded my approach to designing and development of software and programs by allowing me to realise how mush security plays a role in all of it. 
+*How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
 
-*How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+Simply stated, never trust input. It doesn’t matter is the input is a user string or from a database never trust it. Always do some sort of sanitization to prevent errant behaviors or worse.
 
-My work on this project has made me focus more on the end user and maintainability of programs. Inputing redundancies where possible, and also making backups to the code in other branches in order to continue to develop them. 
+*What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
+
+Maven is used all over the industry. Seeing and using Maven was quite useful.
+
+*Employers sometimes ask for examples of work that you have successfully completed to demonstrate your skills, knowledge, and experience. What from this particular assignment might you want to showcase to a future employer?
+
+I think building the Spring API where we had to generate a checksum is the most complete assignment. It touched on many aspects of the Spring, security, and general coding practices.
